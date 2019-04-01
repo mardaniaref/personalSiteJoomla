@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="3.6" type="template" client="site">
+	<name>aref mardani</name>
+	<creationDate>1394-1395</creationDate>
+	<author>aref mardani</author>
+	<authorEmail>mardani.aref@gmail.com</authorEmail>
+	
+	<copyright>2015-2020</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0.1</version>
+	<description>aref mardani</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>font</folder>
+		<folder>images</folder>
+		<folder>js</folder>				
+		<filesname>index.php</filesname>
+		<filesname>error.php</filesname>		
+		<filesname>templateDetails.xml</filesname>		
+		<filesname>favicon.png</filesname>
+			
+	</files>
+	
+	<positions>
+		<position>menu_first</position>
+		<position>siteTitle</position>
+		<position>description</position>
+		<position>middel_right</position>
+		<position>top_right</position>
+		<position>bottom_right</position>
+		<position>links</position>
+		<position>header</position>
+		<position>logo</position>
+		<position>logo_text</position>
+		<position>lang</position>
+		<position>log</position>
+		<position>search</position>
+		<position>newslatter</position>
+		<position>menu_h</position>
+		<position>slider</position>
+		<position>content</position>
+		<position>animate</position>
+		<position>news</position>
+		<position>hot</position>		
+		<position>event</position>
+		<position>user1</position>		
+		<position>user2</position>		
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>		
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>user11</position>
+		<position>user12</position>
+		<position>user13</position>
+		<position>user14</position>	
+		<position>user15</position>			
+		<position>foot</position>
+                <position>footer1</position>
+		<position>footer2</position>
+		<position>footer3</position>
+  		<position>footer4</position>
+                <position>footer5</position>
+		<position>social</position>
+		
+
+						
+	</positions>
+
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_arefmardani.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_arefmardani.sys.ini</language>
+		<language tag="fa-IR">fa-IR/fa-IR.tpl_arefmardani.ini</language>
+		<language tag="fa-IR">fa-IR/fa-IR.tpl_arefmardani.sys.ini</language>
+	</languages>
+
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field 
+					name="templateColor" 
+					type="color" 
+					label="TPL_AREFMARDANI_COLOR_LABEL"
+					description="TPL_AREFMARDANI_COLOR_DESC" 
+					class="" 
+					default="#008080"
+				/>
+
+				<field 
+					name="templateBackgroundColor" 
+					type="color" 
+					label="TPL_AREFMARDANI_BACKGROUND_COLOR_LABEL"
+					description="TPL_AREFMARDANI_BACKGROUND_COLOR_DESC" 
+					class="" 
+					default="#022280"
+				/>
+
+				<field 
+					name="logoFile" 
+					type="media" 
+					label=" upload logo"
+					description="TPL_AREFMARDANI_LOGO_DESC" 
+					class="" 
+					default=""
+				/>
+
+				<field 
+					name="logoBlog" 
+					type="media" 
+					label=" upload logo blog"
+					description="TPL_AREFMARDANI_LOGO_BLOG_DESC" 
+					class="" 
+					default=""
+				/>
+
+				<field 
+					name="sitetitle"  
+					type="text" 
+					label="JGLOBAL_TITLE"
+					description="JFIELD_ALT_PAGE_TITLE_LABEL"
+					default=""
+					filter="string" 
+				/>
+
+				<field 
+					name="sitedescription"  
+					type="text" 
+					label="JGLOBAL_DESCRIPTION"
+					description="JGLOBAL_SUBHEADING_DESC"
+					default=""
+					filter="string" 
+				/>
+
+				
+			
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>

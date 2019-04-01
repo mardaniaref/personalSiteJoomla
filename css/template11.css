@@ -1,0 +1,464 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(../css/styleSticky.css);
+
+body {
+    font-family: Iranian_Sans, Questrial-Regular;
+    font-size: 18px;
+    background-color: #008080;
+}
+
+
+#main {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    direction: rtl;
+}
+
+#left {
+    width: 80%;
+    height: 100%;
+    float: left;
+}
+
+#right {
+    width: 25%;
+    height: 100%;
+    float: right;
+    margin-right: 30px;
+    position: absolute;
+}
+
+
+#middel_right {
+    
+    width:100%;
+    height:30%;
+   
+    
+  
+   
+    top: 33%;
+    bottom: 33%;
+}
+
+#right_pic {
+    background-image: url(../images/logo_border.png);
+     background-size: 50% auto;
+     /* vertical-align: middle; */
+     float: right;
+     position: absolute;
+	background-repeat: no-repeat;
+   /* width: 150px;*/
+   height: 35%;  
+   
+    
+}
+
+#dot {
+    top: 0;
+    width: 1%;
+    height: 100%;
+    position: absolute;
+    
+    border-left: dotted 0.2rem;
+    border-color: #64c9f4;
+    float: right;
+
+}
+
+#dot_bottom {
+    bottom: 0rem;
+    width: 0rem;
+    height: 33%;
+    margin-right: 50%;
+    position: absolute;
+    border-left: dotted 0.2rem;
+    border-color: #64c9f4;
+   
+}
+
+#name_txt1  {
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 70px;
+    font-family: 'ANafis';
+}
+#name_txt1 p {
+font-size: 7rem;
+}
+#name_txt2 {
+    font-family: 'ANafis';
+}
+
+#middel_left {
+    margin-top: 65px;
+    border-top: dotted;
+    border-width: 2px;
+    border-color: #008080;
+}
+
+#top_left {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#bottom_left {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#menu_first ul.nav.menu li {
+    background-color: #008080;
+}
+
+#menu_first ul.nav.menu li a {
+    color: #66b2b2;
+    font-size: 22px;
+    border-bottom: dotted;
+    border-color: #c1c1c1;
+    font-family: 'ANafis';
+}
+
+#menu_first ul.nav.menu li a:hover {
+    color: #ffffff;
+    font-size: 24px;
+    border-color: #f90;
+}
+
+#mf_po {
+    margin-top: 100px;
+    margin-right: 70px;
+}
+
+#logo {
+    margin: 00px 20px 20px 20px;
+    float: right;
+    display: inline;
+    width: 250px;
+}
+
+#logo_text {
+    margin-right: 500px;
+}
+
+#middel_right a img {
+    border: none;
+}
+
+#header a img {
+    border: none;
+}
+
+#menu {
+    margin-right: 300px;
+}
+
+#top-menu {
+    background-image: url(../../../images/arefmardani/1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#menu_h ul.nav.menu li a {
+    font-family: 'ANafis';
+    font-size: 20px;
+}
+
+/**#header{border:solid; border-color: #008080;height: 150px; background-color: }
+**/
+
+#content .blog-featured {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+#links {
+    width: 90%;
+    float: left;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    background-color: #ffffff;
+    border: solid;
+    border-color: #66b2b2;
+    border-width: 2px;
+}
+
+#content {
+    float: left;
+    background-color: #ffffff;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 90%;
+    border: solid;
+    border-color: #66b2b2;
+    border-width: 2px;
+}
+
+#link_head {
+    width: auto;
+    height: 30px;
+    background-color: #004c4c;
+    color: #ffffff;
+    font-size: 22px;
+    border-bottom: dotted;
+    border-color: #ffe0b2;
+    border-width: 1px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+#links a {
+    color: #005959;
+    font-size: 18px;
+    margin-top: 7px;
+    margin-right: 7px;
+    border-bottom: dotted;
+    border-color: #e5f2f2;
+    border-width: 1px;
+    text-decoration: none;
+}
+
+#content .item-title a {
+    text-decoration: none;
+    color: #008080;
+    margin-top: 100px;
+}
+
+#content .item-title a:hover {
+    color: #99cccc;
+}
+
+#content .icons a {
+    color: #aaaaaa;
+    text-decoration: none;
+    font-size: 10px;
+    float: left;
+    list-style: none;
+    display: inline;
+    margin-left: 5px;
+}
+
+#content .icons a:hover {
+    color: #333;
+    font-size: 12px;
+}
+
+#content .icons li {
+    list-style: none;
+}
+
+#content dl dd,
+dt {
+    color: #8a8787;
+    font-size: 12px;
+    display: inline;
+    margin-left: 20px;
+}
+
+#content .item-title {
+    margin-top: 50px;
+}
+
+#content .article-info.muted {
+    margin-bottom: 15px;
+}
+
+#content .category-name a {
+    text-decoration: none;
+    color: #7fbfbf;
+}
+
+#content .category-name a:hover {
+    text-decoration: underline;
+    color: #f90;
+    ;
+}
+
+#content .readmore .btn {
+    color: #333;
+    text-decoration: none;
+    border: dotted;
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 4px;
+    float: left;
+}
+
+#content .readmore .btn:hover {
+    color: #ff3019;
+    ;
+}
+
+#content p {
+    margin-bottom: 20px;
+    color: #666666;
+}
+
+p {
+    line-height: 1.8;
+    letter-spacing: 0px;
+}
+
+#content .item-title {
+    border-top: dotted;
+    border-width: 2px;
+    border-color: #849df6;
+    margin-top: 100px;
+    padding-top: 60px;
+    margin-bottom: 20px
+}
+
+#content .leading-0.clearfix h2.item-title {
+    border-top: hidden;
+    padding-top: 0px
+}
+
+#content img {
+    height: 300px;
+}
+
+#content .pull-left.item-image {
+    width: 500px;
+    margin: 0 auto;
+}
+
+#content a {
+    text-decoration: none;
+    color: #008080;
+}
+
+#content a:hover {
+    color: #ff3019;
+}
+
+#header #logo_text p {
+    width: 50%;
+    font-family: 'ANafis';
+}
+
+#content ul.pager.pagenav li {
+    list-style-type: none;
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#content .pager.pagenav {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+#content .page-header h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+#content .item-page {
+    margin-right: 40px;
+    margin-left: 20pxک
+}
+
+/**------------------------ footer -----------------------------------------**/
+
+#foot {
+    width: 100%;
+    height: auto;
+    clear: both;
+    direction: rtl;
+}
+
+#footer1 {
+    width: 20%;
+    height: 100px;
+    background-color: #004c4c;
+    float: right;
+    color: #ffffff;
+}
+
+#footer2 {
+    width: 20%;
+    height: 100px;
+    background-color: #004c4c;
+    float: right;
+    color: #ffffff;
+}
+
+#footer3 {
+    width: 20%;
+    height: 100px;
+    background-color: #004c4c;
+    float: right;
+    color: #ffffff;
+}
+
+#footer4 {
+    width: 20%;
+    height: 100px;
+    background-color: #004c4c;
+    float: right;
+    color: #ffffff;
+}
+
+#footer5 {
+    width: 20%;
+    height: 100px;
+    background-color: #004c4c;
+    float: right;
+    color: #ffffff;
+}
+
+#footer1 p {
+    margin-top: 30px;
+    margin-right: 100px
+}
+
+#footer2 p {
+    margin-top: 30px;
+    margin-right: 100px
+}
+
+#footer3 p {
+    margin-top: 30px;
+    margin-right: 100px
+}
+
+#footer4 p {
+    margin-top: 30px;
+    margin-right: 100px
+}
+
+#footer5 p {
+    margin-right: 100px
+}
+
+#content img {
+    border: solid;
+    padding: 10px;
+    border-width: 1px;
+    border-color: #008080;
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+
+#foot a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#foot a:hover {
+    color: #f90;
+}

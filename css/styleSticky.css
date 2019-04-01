@@ -1,0 +1,100 @@
+﻿@charset "utf-8";
+
+*{
+	margin:0;
+	padding:0;
+}
+.wrapper
+{
+	
+	margin:1px auto;
+	width:980px;
+	height:0px;
+	z-index:1000 ;
+	
+}
+
+#top-menu{
+	background-color:#ffffff;
+	width:100%;
+	height:40px;
+	z-index:1000;
+}
+.menu{
+	list-style:none;
+	margin:0;
+	padding:0;
+	
+}
+
+
+
+.menu ul{
+	display:none;
+	top:40px;
+	position:absolute;
+	right:0;
+	
+}
+.menu ul ul {
+	display:none;
+	top:0;
+	right:101%;
+	position:absolute;
+}
+.menu li {
+	float:right;
+	background-color:#ffffff;
+	border-left:1px solid rgba(200,200,200,0.4);
+	transition:all 0.2s;
+	position:relative;
+	padding:5px 20px;
+	
+}
+.menu ul li{
+	display:block;
+	width:200px;
+	border-bottom:1px solid rgba(200,200,200,0.4);
+	text-align:center;
+	z-index:1000;
+}
+
+.menu li:hover{
+	background-color:#008080;
+}
+.menu li > ul > li:first-child {
+	border-top:1px solid rgba(200,200,200,0.4);
+	
+}
+.menu li:last-child{
+	border:none;
+	
+}
+.menu li a{
+	display:block;
+	height:30px;
+	line-height:30px;
+	text-decoration:none;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:8pt;
+	color:#008080;
+	transition:all 0.3s;
+	z-index:1000;
+	font-size: 18px;
+
+	
+}
+.menu li a:hover{
+	color:#fff;
+	font-size: 19px;
+	
+}
+/* CSS Document */
+
+.sticky{
+    position: fixed !important;
+    width: 90% !important;
+    top:0 !important;
+    left:5% !important; 
+	
+}

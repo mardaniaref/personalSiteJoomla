@@ -1,0 +1,23 @@
+@font-face {
+    font-family: 'ANafis';
+    src: url('../font/fa_nafis/ANafis.eot');
+    src: url('../font/fa_nafis/ANafis.eot?#iefix') format('embedded-opentype'), url('../font/fa_nafis/ANafis.woff') format('woff'), url('../font/fa_nafis/ANafis.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Iranian_Sans';
+    src: url('../font/A-Iranian-Sans/Iranian_Sans.eot');
+    src: url('../font/A-Iranian-Sans/Iranian_Sans.eot?#iefix') format('embedded-opentype'), url('../font/A-Iranian-Sans/Iranian_Sans.woff') format('woff'), url('../font/A-Iranian-Sans/Iranian_Sans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Questrial-Regular';
+    src: url('../font/Questrial-Regular/Questrial-Regular.eot');
+    src: url('../font/Questrial-Regular/Questrial-Regular.eot?#iefix') format('embedded-opentype'), url('../font/Questrial-Regular/Questrial-Regular.woff') format('woff'), url('../fontQuestrial-Regular/Questrial-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
